@@ -26,3 +26,5 @@ I attended class, rewatched zoom recordings of class, reviewed my notes, and did
 * static/js folder which has the app.js file with my code
 * index.html with the HTML code
 * samples.json is the file with the initial dataset
+
+Additional information on the study and dataset can be found at http://robdunnlab.com/projects/belly-button-biodiversity/
