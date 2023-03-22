@@ -2,18 +2,18 @@
 Module 14 Challenge for Laura Jordan
 
 ## Description
-In this assignment, I built an interactive dashboard to explore a Belly Button Diversity dataset, which catalogs the microbes that colonize human navels. 
+In this assignment, I built an interactive dashboard to explore a Belly Button Diversity dataset, which catalogs the microbes that colonize in human navels. 
 
 The interactive dashboard includes:
 * **Intro:** An intro section outlining basic information about the study
-* **Choose Subject ID:** A drop down menu for the user to select the Test Subject ID Number that they want to see data for
+* **Subject ID Selector:** A drop down menu for the user to select the Test Subject ID Number that they want to see data for
 * **Demographic Information:** Basic demographic information for the Subject 
 * **Bar Chart:** A Horizontal Bar Chart that shows up to the top 10 OTUs found in the Subject
 * **Gauge Chart:** A Guage Chart showing the frequency the Subject scrubbed their belly button
 * **Bubble Chart:** A Bubble Chart showing the OTU data for the Subject
 
 ## Dashboard
-To access the dashboard, please follow this link: http://127.0.0.1:5501/index.html
+To access the dashboard, please follow this link: https://laurajordan845.github.io/
 
 **Dashboard Preview:** 
 
