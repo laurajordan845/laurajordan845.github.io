@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1 style="color:rgb(158, 1, 66);">Belly Button Biodiversity Dashboard</h1>
+        <p style="color:rgb(213, 62, 79);">In 2012, scientists from NC State published a scientific paper revealing the jungle of microbial diversity from their subjects  belly buttons. They detected over 2,300 spieces in their 60 subjects belly buttons. I used their dataset to create this interactive dashboard that explores the data. </p>
+        <p style="color:rgb(244, 109, 67);">All you need to do is choose the Test Subject ID No in the drop down menu and then you'll be able to see basic demographic information on the subject, the Top OTUs (operational taxonomic units) present in their navel, the frequency that they scrub their belly button and the bacteria per sample.</p>
+        <h2 style="color:rgb(253, 174, 97);">Have fun exploring this facinating data set!</h2>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5 style="color:rgb(158, 1, 66);"><b>Test Subject ID Number:</b></h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/js/app.js"></script>
+  <script src="./static/js/bonus.js"></script>
+  
+</body>
+
+</html>
