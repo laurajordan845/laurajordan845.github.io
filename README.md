@@ -12,7 +12,7 @@ The interactive dashboard includes:
 * **Gauge Chart:** A Guage Chart showing the frequency the Subject scrubbed their belly button
 * **Bubble Chart:** A Bubble Chart showing the OTU data for the Subject
 
-## Description
+## Dashboard
 To access the dashboard, please follow this link: http://127.0.0.1:5501/index.html
 
 **Dashboard Preview:** 
